@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TahminActivity">
+
+    <Button
+        android:id="@+id/buttonTahminEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tahmin_et"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/girdiText"
+        android:layout_marginTop="125sp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/kalanHak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kalan Hak: 5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="24sp"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/yardimciTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/kalanHak"
+        android:layout_marginTop="70dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/girdiText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:ems="10"
+        android:hint="@string/sayi_giriniz"
+        android:inputType="numberSigned"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/yardimciTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

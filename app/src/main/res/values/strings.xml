@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SayiTahminEtOyun</string>
+    <string name="zarresmi">zarResmi</string>
+    <string name="basla">BASLA</string>
+    <string name="sayi_tahmin_et">SAYI TAHMIN ET</string>
+    <string name="arttir">Arttir</string>
+    <string name="tahmin_et">Tahmin Et</string>
+    <string name="tekrar_oyna">Tekrar Oyna</string>
+    <string name="me">Me</string>
+    <string name="tebrikler_kazandiniz">Tebrikler Kazandiniz..</string>
+    <string name="sayi_giriniz">Sayi Giriniz ..</string>
+    <string name="aciklama">Merhaba, Oyunun amaci telefonunun tuttugu 1-15 arasinda ki sayiyi 5 hamlede bulabilmen. O sayiya yaklasip uzaklasmana gore uygulama sana ARTTIR,AZALT veya CokYakinsinArttir-Azalt gibi seyler soyluycek.</string>
+</resources>
